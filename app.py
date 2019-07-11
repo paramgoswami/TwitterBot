@@ -49,7 +49,7 @@ class MyTwitterBot:
 def main():
     hashtag = input("What hashtag you want to like?")
     MyTwitterBotInstance = MyTwitterBot(
-        'vuxagar@4simpleemail.com', 'twitterbot')
+        'your-username-or-email', 'your-password')
     MyTwitterBotInstance.login()
     MyTwitterBotInstance.like_tweet(hashtag)
 
